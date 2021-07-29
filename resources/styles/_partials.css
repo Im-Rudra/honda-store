@@ -1,0 +1,11 @@
+:root {
+    /* fonts */
+    --inter: 'Inter', sans-serif;
+    --manrope: 'Manrope', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+
+    /* background colors */
+    --header-bg: #264653;
+    --theme: #E76F51;
+    --star-color: #E77C40;
+}
