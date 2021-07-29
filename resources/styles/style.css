@@ -1,2 +1,84 @@
 @import url('_reset.css');
 @import url('_partials.css');
+
+
+body {
+    font-family: var(--poppins);
+}
+
+/* ========== HEADER START ========== */
+.grow-unset {
+    flex-grow: unset;
+}
+
+header {
+    background: var(--header-bg);
+}
+
+.hero-h1 {
+    font-family: var(--poppins);
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 4.5rem;
+}
+
+.hero-btn {
+    background: var(--theme);
+    border-radius: 5px;
+    padding: 10px 46px;
+}
+/* ========== HEADER END ========== */
+
+/* ========== MAIN START ========== */
+.gray-scale {
+    filter: grayscale(75%);
+}
+
+.fb-title {
+    color: black;
+}
+
+.fb-title h1 {
+    font-weight: 600;
+}
+
+.fb-subtitle {
+    color: var(--theme);
+    font-weight: 600;
+    position: relative;
+}
+
+.fb-subtitle::after {
+    content:'';
+    background-color: var(--theme);
+    height: 2px;
+    width: 58px;
+    border-radius: 1px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* ========== MAIN END ========== */
+
+
+/* ========== CLIENT SECTION START========== */
+.color-text {
+    color: var(--theme);
+}
+
+.client-rating {
+    color: var(--star-color);
+}
+/* ========== CLIENT SECTION END========== */
+
+
+/* ========== FOOTER START========== */
+footer {
+    background: var(--header-bg);
+}
+
+footer p {
+    margin: 0;
+}
+/* ========== FOOTER END========== */
